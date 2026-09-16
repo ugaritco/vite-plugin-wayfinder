@@ -14,7 +14,7 @@
     "url": "https://github.com/ugarit/vite-plugin-wayfinder/issues"
   },
   "scripts": {
-    "prepublish": "pnpm run build",
+    "prepublishOnly": "npm run build",
     "dev": "unbuild --stub",
     "build": "unbuild",
     "format": "prettier --write ."
