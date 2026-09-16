@@ -1,4 +1,4 @@
-import { Plugin } from 'vite';
+import { Plugin } from "vite";
 
 interface WayfinderOptions {
     patterns?: string[];
@@ -8,7 +8,14 @@ interface WayfinderOptions {
     path?: string;
     command?: string;
 }
-declare const wayfinder: ({ patterns, actions, routes, formVariants, path, command, }?: WayfinderOptions) => Plugin;
+declare const wayfinder: ({
+    patterns,
+    actions,
+    routes,
+    formVariants,
+    path,
+    command,
+}?: WayfinderOptions) => Plugin;
 
 export { wayfinder };
 export type { WayfinderOptions };
